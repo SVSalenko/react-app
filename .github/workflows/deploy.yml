@@ -30,7 +30,7 @@ jobs:
 
       # Deploy the project using SSH
       - name: Deploy
-        uses: h304545611
+        uses: easingthemes/react-app
         with:
           SSH_PASSWORD: ${{ secrets.SSH_PASSWORD }}
           REMOTE_HOST: ${{ secrets.SSH_HOST }}
